@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: #999;
+}
+
+.agrupar{
+    border: 1px solid rgb(25, 17, 32);
+    width: 960px;
+    margin: auto;
+    background: white;
+}
+
+.header{
+    background: #FFFBB9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.header h1{
+   text-align: left;
+}
+
+.menu{
+    background: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display:inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.section{
+    margin: 20px; 
+    width: 600px;
+    float: left;
+}
+
+article{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+time{
+    color: #999;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.columna{
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+}
+
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background: #FFFBB9;
+    margin-bottom: 20px;
+}
+
+.footer{
+    clear: both;
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
